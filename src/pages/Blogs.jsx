@@ -35,11 +35,11 @@ const Blogs = () => {
             </span>
 
             <h1 className="mt-8 max-w-3xl text-4xl font-semibold tracking-tight text-zinc-50 sm:text-5xl lg:text-6xl">
-              Articles on Arabic language, poetry & voice artistry.
+              Articles on Arabic language, Quran, grammar, and poetry.
             </h1>
 
             <p className="mt-6 max-w-2xl text-base leading-8 text-zinc-400 sm:text-lg">
-              Explore insights, lessons, and guides on refining your Arabic skills, understanding classical poetry, and mastering expressive voice delivery.
+              Explore insights, lessons, and guides on improving your Arabic skills, Quran study, grammar, and Arabic literary expression.
             </p>
 
             <div className="mt-10 flex flex-col gap-4 sm:flex-row sm:flex-wrap">
@@ -82,7 +82,7 @@ const Blogs = () => {
               <p className="text-sm font-semibold uppercase tracking-[0.35em] text-amber-300/80">Ready to Learn?</p>
               <h2 className="mt-4 text-3xl font-semibold text-zinc-100 sm:text-4xl">Start Your Arabic Journey Today</h2>
               <p className="mt-6 text-base leading-8 text-zinc-400">
-                Connect with me to book personalized lessons, discuss poetry collaborations, or arrange voice-over services.
+                Connect with me to begin personalized Arabic lessons, Quran classes, grammar coaching, poetry guidance, and content writing support.
               </p>
               <Link
                 to="/contact"

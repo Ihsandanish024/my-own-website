@@ -14,7 +14,7 @@ const translations = {
     headerTitle: "About Me",
     HomepageLink:"Home",
     headerSubtitle:
-      "A deeper look into my academic journey, expertise, and professional experience in Arabic language teaching, poetry, and voice artistry.",
+      "A deeper look into my academic journey, expertise, and professional experience in Arabic language teaching, Quran learning, grammar, and literary expression.",
     back: "← Back to Home",
     introLabel: "Introduction",
     introHeading: "Who I am",
@@ -22,64 +22,40 @@ const translations = {
 
 Educator & Islamic Scholar
 
-I am **Obaid Ur Rehman Yousafzai**, a dedicated educator and Islamic scholar with more than **14 years of teaching experience** in Arabic language and Islamic studies. My mission is to make Arabic and Islamic knowledge accessible, practical, and inspiring for students of all levels.
-
+I am **Ihsan Ullah Fareed**, a dedicated educator and Islamic scholar with more than **5 years of teaching experience** in Arabic language and Islamic studies. My mission is to make Arabic and Islamic knowledge accessible, practical, and inspiring for students of all levels.
 
 
  Academic Background
 
- Master's Degree in Arabic Language and Islamic studies 
- specialization in islamic studies and Arabic language 
+ Master's Degree in Arabic Language and Islamic studies
+ full command on arabic speaking and writing
  Academic affiliation with Al-Rasheed University, Karachi
 
 
  Teaching Experience
 
- 14+ years of teaching Arabic Language
- 14+ years of teaching Islamic Studies
- Lecturer and academic mentor at Al-Rasheed University
+ 4+ years of teaching Arabic Language
+ 6+ years of teaching Islamic Studies
+ Lecturer and academic mentor at Itqan academy
  Experience teaching students from diverse educational backgrounds
 
 
- Translation & Language Services
+ Arabic Teaching & Quran Education
 
-I specialize in multilingual translation and language development projects, with a particular focus on Arabic, Pashto, Urdu, and Islamic literature.
+I specialize in helping students learn spoken Gulf Arabic, Modern Standard Arabic, Arabic grammar, Quran reading, Nazra, and Hifz in a structured and encouraging environment.
 
- Key Contributions
+ Key Focus Areas
 
- Pashto translation recording for Digital Quran projects
- Contributor to the "Ahsan-ul-Kalam" Quran project
- Development of multilingual dictionaries and language resources
-
-
-
- Voice-Over & Media Production
-
-With extensive experience in professional voice recording, I have participated in numerous educational and religious media projects.
-
- Notable Work
-
- audio recording of Fazail-e-Amaal
- Educational and charitable documentary narrations
- Professional voice-over production for academic institutions
+ Spoken Gulf Arabic
+ Modern Standard Arabic
+ Arabic Grammar
+ Qaida and Quran Nazra
+ Quran Hifz
+ Arabic Poetry
+ Arabic Content Writing
 
 
  Publications & Authorship
-
- Published Works
-
- Dictionary of Equivalent Proverbs (Three Languages)
-
- Upcoming Publications
-
- Arabic-English Dictionary of Proverbs
- Multilingual Dictionary of Expressions
-
- Other Works
-
- Diwan of Sheikh Obaid Ur Rehman
- Functions and Duties of the Prophet ﷺ
-
 
 
  Literary & Academic Activities
@@ -90,7 +66,6 @@ With extensive experience in professional voice recording, I have participated i
 
  Selected Events
 
- Islamabad Academic Poetry Seminars (2019, 2021)
  Punjab University Literary Participation (2024)
 
 
@@ -100,47 +75,35 @@ Regular creator of educational content, including:
 
  Hadith of the Day
  Wisdom of the Day
- Poem of the Day
  Expression of the Day
  Proverb of the Day
  Historical Events of the Day
-
-
- Scholarly Travels
-
- Journey to Madinah for the study of Hadith
-Performed Umrah twice
- Educational visits to Quetta for the promotion of Arabic language learning
-
-
 
  Areas of Expertise
 
  Arabic Language Teaching
  Islamic Studies
- Translation Services
- Voice-Over Production
- Content Development
+ Quran Teaching and Hifz
+ Arabic Grammar
+ Arabic Poetry
+ Arabic Content Writing
  Academic Writing
- Dictionary Compilation
- Book Authorship
 
 
-
-Teaching Philosophy
+ Teaching Philosophy
 
 Knowledge becomes meaningful when it is understood, practiced, and shared. My goal is to combine authentic scholarship with effective teaching methods to help students achieve both academic excellence and personal growth`,
     educationLabel: "Education",
     educationHeading: "Academic Background",
     education1Title: "Islamic Studies",
-    education1Subtitle: "Jamiat-ul-Uloom-ul-Islamia – 2010",
+    education1Subtitle: "jamiaturrashid karachi",
     education2Title: "Arabic Language and Literature",
-    education2Subtitle: "Jamiat-ul-Uloom-ul-Islamia – 2012",
+    education2Subtitle: "jamiaturrashid karachi",
     skillsLabel: "Skills",
     skillsHeading: "Core Competencies",
     skill1: "Arabic Language Poet",
     skill2: "Arabic Language Teacher",
-    skill3: "Arabic Voice Artist",
+    skill3: "Quran & Grammar Mentor",
     activitiesLabel: "Activities",
     activitiesHeading: "Professional Engagements",
     activity1: "Academic Conference Participation",
@@ -153,116 +116,119 @@ Knowledge becomes meaningful when it is understood, practiced, and shared. My go
     ctaLabel: "Ready to Learn?",
     ctaHeading: "Start Your Arabic Journey",
     ctaText:
-      "Connect with me to book personalized lessons or discuss your Arabic learning goals.",
+      "Connect with me to start personalized Arabic lessons, Quran classes, grammar coaching, poetry guidance, and content writing support.",
     ctaButton: "Get in Touch",
-    footerCopyright: "© 2026 ubaidAcademy All rights reserved.",
+    footerCopyright: "© 2026 Ihsan Ullah Fareed. All rights reserved.",
     languageToggle: "العربية",
     languageLabel: "Switch to Arabic",
   },
   ar: {
     nav: {
-      home: "الصفحة الرئیسة",
-      portfolio: "السیرة الذاتیة",
+      home: "الرئيسية",
+      portfolio: "السيرة الذاتية",
       blogs: "المدونة",
       contact: "تواصل",
     },
     headerTitle: "من أنا",
     headerSubtitle:
-      "نظرة أعمق على رحلتي الأكاديمية وخبرتي المهنية في تدريس اللغة العربية والشعر وفن الأداء الصوتي.",
+      "نظرة أعمق على رحلتي الأكاديمية وخبرتي في تدريس اللغة العربية، تعليم القرآن، القواعد، والتعبير الأدبي.",
     back: "← العودة إلى الرئيسية",
     introLabel: "مقدمة",
-    introHeading: "من هو أنا",
-    introText:
-  `"سيرة الذاتية
+    introHeading: "من أكون",
+    introText: `عنّي
 
-الاسم:
-عبيد الرحمن يوسف زئي بن گل محمد
+معلم ومفكر إسلامي
 
-تاريخ الميلاد:
-01 يناير 1987م
-العمر: 37 سنة
+أنا **إحسان الله فريد**، معلم متخصص وعالم إسلامي متحمس لأكثر من **5 سنوات من الخبرة التعليمية** في اللغة العربية والدراسات الإسلامية. رسالتي هي جعل المعرفة العربية والإسلامية متاحة، عملية، ومُلهمة للطلاب من جميع المستويات.
 
-الجنس:
-ذكر
+المؤهلات الأكاديمية
 
-الجنسية:
-باكستاني
+- ماجستير في اللغة العربية والدراسات الإسلامية
+- إتقان كامل في التحدث والكتابة بالعربية
+- الانتساب الأكاديمي بجامعة الرشيد، كراتشي
 
-بلد الإقامة:
-كراتشي، باكستان
+الخبرة التدريسية
 
-البريد الإلكتروني:
-ubaidyousufzai9@gmail.com
+- أكثر من 4 سنوات في تدريس اللغة العربية
+- أكثر من 6 سنوات في تدريس الدراسات الإسلامية
+- محاضر ومرشد أكاديمي في أكاديمية إتقان
+- خبرة في تدريس طلاب من خلفيات تعليمية متنوعة
 
-رقم الهاتف:
-+92 3480281550
+تعليم اللغة العربية والقرآن
 
-المؤهلات العلمية:
-ماجستير في اللغة العربية والعلوم الدينية
-دراسة العلوم الشرعية والعربية في جامعة الرشيد كراتشي
+أعمل على مساعدة الطلاب على تعلم العربية الخليجية المنطوقة، العربية الفصحى الحديثة، قواعد اللغة العربية، قراءة القرآن، النظم، والحفظ في بيئة منظمة ومشجعة.
 
-الخبرات العملية:
-خبرة تدريسية 14 سنة في اللغة العربية والعلوم الإسلامية
-أستاذ في جامعة الرشيد كراتشي
-عمل 10 سنوات في شركة Danny Technology في البرمجيات والتعليق الصوتي
-تسجيل ترجمة القرآن الكريم بالبشتو ضمن مشاريع المصحف الرقمي وأحسن الكلام
-تسجيل صوتي لكتاب فضائل الأعمال
-إعداد وثائقيات صوتية للمؤسسات التعليمية والخيرية
+المجالات المركزية
 
-سلسلة اليوميات:
-حديث اليوم
-حكمة اليوم
-شعر اليوم
-تعبير اليوم
-مثل اليوم
-ماذا حدث في مثل هذا اليوم
+- العربية الخليجية المنطوقة
+- العربية الفصحى الحديثة
+- قواعد اللغة العربية
+- القاعدة وقراءة القرآن
+- حفظ القرآن
+- الشعر العربي
+- كتابة المحتوى العربي
 
-النشاط الأدبي:
-مشاركات شعرية في ندوات جامعة NULS إسلام آباد 2019 و2021
-مشاركة في جامعة پنجاب 2024
+المنشورات والتأليف
 
-المؤلفات:
- قاموس الأمثال المتماثلة 3 لغات مطبوع
- قاموس الأمثال 2 لغات إنجليزي تحت الطبع
- قاموس التعبيرات 3 لغات تحت الطبع
- ديوان الشيخ عبيد الرحمن
- وظائف النبي صلى الله عليه وسلم
+الأنشطة الأدبية والأكاديمية
 
-الرحلات:
-المدينة المنورة لطلب الحديث
-عمرتان
-كويتا مرتين لنشر العربية
+- عروض شعرية في الندوات الأكاديمية الوطنية
+- مشارك في الفعاليات الأدبية ومؤتمرات الجامعات
+- مساهم في المبادرات التعليمية والثقافية
 
-المهارات:
-الترجمة
-الكتابة
-التعليق الصوتي`,
+الأحداث المختارة
+
+- مشاركة جامعة البنجاب في الأدب (2024)
+
+سلسلة المحتوى التعليمي
+
+أقوم بإنشاء محتوى تعليمي منتظم، بما في ذلك:
+
+- حديث اليوم
+- حكمة اليوم
+- تعبير اليوم
+- مثل اليوم
+- الحدث التاريخي اليوم
+
+مجالات الخبرة
+
+- تدريس اللغة العربية
+- الدراسات الإسلامية
+- تعليم القرآن والحفظ
+- قواعد اللغة العربية
+- الشعر العربي
+- كتابة المحتوى العربي
+- الكتابة الأكاديمية
+
+فلسفة التعليم
+
+تتحول المعرفة إلى معنى عندما تُفهم، وتُمارس، وتُشارك. هدفي هو الجمع بين العلم الأصيل والطرق التعليمية الفعّالة لمساعدة الطلاب على تحقيق التفوق الأكاديمي والنمو الشخصي.`,
     educationLabel: "التعليم",
     educationHeading: "الخلفية الأكاديمية",
     education1Title: "الدراسات الإسلامية",
-    education1Subtitle: "جامعة العلوم الإسلامية – 2010",
+    education1Subtitle: "جامعة الرشيد - كراتشي",
     education2Title: "اللغة العربية وآدابها",
-    education2Subtitle: "جامعة العلوم الإسلامية – 2012",
+    education2Subtitle: "جامعة الرشيد - كراتشي",
     skillsLabel: "المهارات",
     skillsHeading: "الكفاءات الأساسية",
     skill1: "شاعر باللغة العربية",
-    skill2: "مدرس لغة عربية",
-    skill3: "فنان صوتي عربي",
+    skill2: "مدرس اللغة العربية",
+    skill3: "مرشد القرآن والقواعد",
     activitiesLabel: "الأنشطة",
     activitiesHeading: "الأنشطة المهنية",
-    activity1: "المشاركة في المؤتمرات العلمية",
+    activity1: "مشاركة في المؤتمرات الأكاديمية",
     activity2: "المشاريع البحثية",
     activity3: "البرامج المجتمعية والتعليمية",
     videosLabel: "الدروس والفعاليات",
     videosHeading: "الدروس والخطابات والأنشطة",
     videosIntro:
-      "مجموعة من الدروس والمحاضرات والعروض المجتمعية التي تعكس التعلم القيمي والتربية اللغوية والتوجيه الأكاديمي.",
+      "مجموعة مختارة من المحاضرات والدروس والعروض المجتمعية التي تسلط الضوء على التعليم القيم، تعليم اللغة، والخطابة العامة.",
     ctaLabel: "هل أنت مستعد للتعلم؟",
     ctaHeading: "ابدأ رحلتك في اللغة العربية",
     ctaText:
-      "تواصل معي لحجز دروس مخصصة أو لمناقشة أهدافك في تعلم اللغة العربية.",
+      "تواصل معي لبدء دروس عربية مخصصة، صفوف قرآن، تدريب على القواعد، إرشاد في الشعر، ودعم في كتابة المحتوى.",
     ctaButton: "تواصل الآن",
-    footerCopyright: "© 2026 أكاديمية عبيد جميع الحقوق محفوظة.",
+    footerCopyright: "© 2026 إحسان الله فريد. جميع الحقوق محفوظة.",
     languageToggle: "English",
     languageLabel: "التبديل إلى الإنجليزية",
   },
@@ -319,7 +285,7 @@ const About = () => {
 
             <div className={`mt-8 flex flex-col items-start gap-6 ${layoutDirection} sm:items-center`}>
               <img
-                src="/images/profile picture.jpeg"
+                src="/WhatsApp%20Image%202026-02-01%20at%209.09.28%20AM.jpeg"
                 alt={t.headerTitle}
                 className="h-28 w-28 rounded-full border border-amber-400/20 object-cover shadow-xl shadow-black/20 sm:h-32 sm:w-32"
               />

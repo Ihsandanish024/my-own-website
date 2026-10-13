@@ -6,17 +6,10 @@ import {
   Sparkles,
   BookOpen,
   Feather,
-  Mic2,
-  Volume2,
-  Mail,
   Youtube,
   Linkedin,
-  Instagram,
   Facebook,
-  Twitter,
   ChevronRight,
-  MessageSquare,
-  Quote,
 } from "lucide-react";
 import ThemeToggle from "../components/ThemeToggle";
 
@@ -24,7 +17,6 @@ const translations = {
   en: {
     navItems: [
       { label: "Home", to: "/" },
-      { label: "Book", to: "/book" },
       { label: "Portfolio", to: "/portfolio" },
       { label: "Blogs", to: "/blogs" },
       { label: "About", to: "/about" },
@@ -32,10 +24,10 @@ const translations = {
     ],
     admin: "Admin Login",
     hero: {
-      roleTag: "Arabic Teacher · Poet · Voice Artist",
-      heading: "Elegant Arabic teaching, poetry, and premium voice-over services.",
+      roleTag: "Arabic Teacher · Quran · Grammar Mentor",
+      heading: "Arabic teaching is my core service and the heart of everything I do.",
       description:
-        "I help learners discover the depth of Arabic language and literature with clear pronunciation, expressive poetry, and professional Arabic voice content for videos and advertisements.",
+        "I teach spoken Gulf Arabic, Modern Standard Arabic, Arabic grammar, Quran with Nazra and Hifz, Arabic poetry, and Arabic content writing for students of all ages.",
       buttons: {
         portfolio: "Explore Portfolio",
         blogs: "Read Blogs",
@@ -43,58 +35,41 @@ const translations = {
       },
     },
     featured: {
-      sectionLabel: "Featured Services",
+      sectionLabel: "Featured Learning Areas",
       cards: [
         {
-          title: "Accent Precision",
-          description: "Professional pronunciation coaching.",
+          title: "Spoken Gulf Arabic",
+          description: "Daily conversation skills for confident communication.",
         },
         {
-          title: "Literary Craft",
-          description: "Poetry and writing with authentic Arabic voice.",
+          title: "Modern Standard Arabic",
+          description: "Reading, speaking, grammar, and clear expression.",
         },
       ],
-      whyTitle: "Why Choose My Services",
+      whyTitle: "Why learners choose me",
       whyDescription:
-        "Combining pedagogy, literature, and voice artistry, I deliver refined Arabic communication that feels both modern and deeply rooted in tradition.",
-    },
-    book: {
-      sectionLabel: "New Book",
-      title: "A bilingual expression reference: Arabic, Pashto",
-      subtitle: "An illustrated guide to get expressions in either arabic and pashto languages",
-      description:
-        "This unique collection presents idiomatic expressions in Arabic, English, and Pashto. Readers can quickly find equivalent idioms across the three languages.",
-      highlights: [
-        "Beautiful cover art and sample pages.",
-        "Easy-to-follow reading exercises.",
-        "Contact details and purchase options included.",
-      ],
-      button: "View Book",
-      buyButton: "Order Now",
-      contactLabel: "Buy by email",
-      contactEmail: "ubaidyousufzai9@gmail.com",
-      whatsappLink: "https://wa.me/923480281550?text=Hello%20Ubaid%2C%20I%20want%20to%20order%20the%20book.",
+        "I focus on Arabic teaching for all ages, combining Quran reading and memorization, grammar, poetry, and content writing in a practical and inspiring learning experience.",
     },
     about: {
       label: "About",
-      heading: "A teacher of Arabic language, poetry, and refined expression.",
+      heading: "A teacher of Arabic language, Quran, grammar, and literary expression.",
       description:
-        "With years of teaching experience and passion for Arabic literature, I bring clarity and elegance to every lesson, article, and voice recording I create.",
+        "With years of teaching experience, I help students grow in spoken Arabic, Modern Standard Arabic, grammar, Quran recitation, poetry, and Arabic writing with clarity and confidence.",
       cards: [
         {
-          title: "Teaching Mastery",
+          title: "Spoken Gulf Arabic",
           description:
-            "Personalized lessons for spoken Arabic, grammar, and fluency that grow confidence fast.",
+            "Practical lessons for everyday conversation, pronunciation, and fluency.",
         },
         {
-          title: "Poetry & Literature",
+          title: "Modern Standard Arabic & Grammar",
           description:
-            "Crafted Arabic poetry with soulful rhythm and rich literary expression.",
+            "Structured learning for reading, writing, and mastering essential grammar rules.",
         },
         {
-          title: "Voice-over Expertise",
+          title: "Quran, Poetry & Writing",
           description:
-            "Professional Arabic voice for commercials, narrations, and branded media.",
+            "Qaida, Nazra, Hifz, Arabic poetry, and content writing for learners of all ages.",
         },
       ],
     },
@@ -102,11 +77,11 @@ const translations = {
       label: "Services",
       heading: "What I offer",
       description:
-        "Elegant, modern service cards designed to communicate experience and trust.",
+        "My core work is Arabic teaching, Quran study, grammar, poetry, and Arabic content writing for students of every age.",
     },
     portfolio: {
       label: "Featured Portfolio",
-      heading: "Selected work & services",
+      heading: "Selected learning areas",
       button: "View Portfolio",
       featuredTag: "Featured",
       details: "View details",
@@ -119,32 +94,31 @@ const translations = {
     },
     testimonials: {
       label: "Testimonials",
-      heading: "Trusted by learners and creative teams.",
+      heading: "Trusted by learners and families.",
       description:
-        "Feedback from students and collaborators who experienced Arabic teaching, writing, and voice-over services.",
+        "Feedback from students who experienced Arabic teaching, Quran learning, grammar coaching, and poetry guidance.",
     },
     contact: {
       label: "Contact",
-      heading: "Start your Arabic journey or book a voice-over.",
+      heading: "Start your Arabic journey with confidence.",
       description:
-        "Reach out by email or connect through social channels for a tailored consultation.",
+        "Reach out by email or connect through social channels for a tailored lesson plan.",
       emailLabel: "Email",
       socialLabel: "Social",
       connectTitle: "Let’s connect",
       connectDescription:
-        "Send a message for teaching, poetry, narration, or consulting and receive detailed guidance within one business day.",
+        "Send a message for Arabic lessons, Quran classes, grammar support, poetry guidance, or content writing and receive detailed guidance within one business day.",
       messageButton: "Message me",
     },
     footer: {
-      copyright: "© 2026 Ubaid academy. All rights reserved.",
-      links: ["Home", "Book", "Portfolio", "Blogs", "About", "Contact"],
+      copyright: "© 2026 Ihsan Ullah Fareed. All rights reserved.",
+      links: ["Home", "Portfolio", "Blogs", "About", "Contact"],
     },
     languageButton: "العربیة",
   },
   ar: {
     navItems: [
       { label: "الصفحة الرئيسية", to: "/" },
-      { label: "الكتاب", to: "/book" },
       { label: "السیرة الذاتیة", to: "/portfolio" },
       { label: "المدونات", to: "/blogs" },
       { label: "من أنا", to: "/about" },
@@ -152,10 +126,10 @@ const translations = {
     ],
     admin: "تسجيل دخول الإدارة",
     hero: {
-      roleTag: "مدرّس لغة عربية · شاعر · فنان صوتي",
-      heading: "تدريس عربي راقٍ، شعر أصيل، وصوتيات احترافية.",
+      roleTag: "مدرس عربي · قرآن · قواعد",
+      heading: "تدريس اللغة العربية هو خدمتي الأساسية وقلب ما أقدمه.",
       description:
-        "أساعد المتعلمين على اكتشاف عمق اللغة العربية وآدابها من خلال نطق واضح، شعر معبر، ومحتوى صوتي عربي احترافي للفيديوهات والإعلانات.",
+        "أدرس العربية الخليجية المنطوقة، العربية الفصحى الحديثة، القواعد النحوية، القرآن مع الناظر والحفظ، الشعر العربي، وكتابة المحتوى العربي لطلاب من جميع الأعمار.",
       buttons: {
         portfolio: "استعرض الأعمال",
         blogs: "قراءة المدونات",
@@ -163,58 +137,41 @@ const translations = {
       },
     },
     featured: {
-      sectionLabel: "الخدمات المميزة",
+      sectionLabel: "مجالات التعلم المميزة",
       cards: [
         {
-          title: "دقة النطق",
-          description: "تدريب محترف على نطق العربية بوضوح وثقة.",
+          title: "العربية الخليجية المنطوقة",
+          description: "مهارات المحادثة اليومية للتواصل بثقة.",
         },
         {
-          title: "حرفية أدبية",
-          description: "كتابة وشعر عربي بنبرة أصيلة وأسلوب بديع.",
+          title: "العربية الفصحى الحديثة",
+          description: "القراءة، التحدث، القواعد، والتعبير الواضح.",
         },
       ],
-      whyTitle: "لماذا تختار خدماتي",
+      whyTitle: "لماذا يختارني المتعلمون",
       whyDescription:
-        "أدمج بين التربية الأدبية وفن الصوت لتقديم تواصل عربي رفيع يجمع بين الحداثة والجذور التقليدية.",
-    },
-    book: {
-      sectionLabel: "كتاب جديد",
-      title:" مرجع التعبيرات ثنائية اللغة العربیة و البشتو",
-      subtitle: "استفد من تعبیرات ذات اللغتین العربیة و البشتو",
-      description:
-        "مثالي للمتعلمين والقراء والمحترفين الإبداعيين الذين يريدون كتابًا يجمع بين اللغة والقصة والتدريب الصوتي.",
-      highlights: [
-        "غلاف جذاب وصفحات عرض مميزة.",
-        "تمارين قراءة سهلة المتابعة.",
-        "خيارات شراء مع تفاصيل الاتصال.",
-      ],
-      button: "عرض الكتاب",
-      buyButton: "اطلب الآن",
-      contactLabel: "للطلب عبر البريد الإلكتروني",
-      contactEmail: "ubaidyousufzai9@gmail.com",
-      whatsappLink: "https://wa.me/923480281550?text=مرحباً%20عبيد%2C%20أرغب%20بطلب%20الكتاب.",
+        "أركز على تدريس اللغة العربية لجميع الأعمار، مع تعليم القرآن بالحفظ والنظر، والقواعد، والشعر، وكتابة المحتوى في تجربة عملية ومشجعة.",
     },
     about: {
       label: "من أنا",
-      heading: "مدرّس في اللغة العربية، الشعر، والتعبير الراقي.",
+      heading: "مدرس اللغة العربية، القرآن، القواعد، والتعبير الأدبي.",
       description:
-        "بخبرة سنوات في التدريس وشغف بالأدب العربي، أقدّم وضوحاً وأناقة في كل درس، مقال، وتسجيل صوتي أصنعه.",
+        "بخبرة في التعليم، أساعد الطلاب على النمو في المحادثة العربية، العربية الفصحى الحديثة، القواعد، قراءات القرآن، الشعر، والكتابة العربية بثقة ووضوح.",
       cards: [
         {
-          title: "إتقان التدريس",
+          title: "العربية الخليجية المنطوقة",
           description:
-            "دروس شخصية في المحادثة العربية، القواعد، والطلاقة لبناء الثقة بسرعة.",
+            "دروس عملية للمحادثة اليومية والنطق والطلاقة.",
         },
         {
-          title: "شعر وأدب",
+          title: "العربية الفصحى الحديثة والقواعد",
           description:
-            "شعر عربي مصاغ بإيقاع روحاني وتعابير أدبية غنية.",
+            "تعلم منظم للقراءة والكتابة وإتقان قواعد اللغة الأساسية.",
         },
         {
-          title: "خبرة التعليق الصوتي",
+          title: "القرآن، الشعر، والكتابة",
           description:
-            "صوت عربي احترافي للإعلانات، السرد، والمحتوى الإعلامي.",
+            "القيادة، الناظر، الحفظ، الشعر العربي، وكتابة المحتوى للمتعلمين من جميع الأعمار.",
         },
       ],
     },
@@ -222,11 +179,11 @@ const translations = {
       label: "الخدمات",
       heading: "ما أقدمه",
       description:
-        "بطاقات خدمات أنيقة وعصرية تساعد على إيصال الخبرة والثقة.",
+        "عملنا الأساسي هو تدريس اللغة العربية، تعليم القرآن، القواعد، الشعر، وكتابة المحتوى العربي لطلاب من جميع الأعمار.",
     },
     portfolio: {
       label: "أعمال مختارة",
-      heading: "نماذج من المشاريع والخدمات",
+      heading: "مجالات التعلم المختارة",
       button: "عرض المحفظة",
       featuredTag: "مميز",
       details: "عرض التفاصيل",
@@ -239,25 +196,25 @@ const translations = {
     },
     testimonials: {
       label: "آراء العملاء",
-      heading: "يثق بي المتعلمون والفرق الإبداعية.",
+      heading: "يثق بي الطلاب والعائلات.",
       description:
-        "آراء طلاب ومتعاونين جربوا تدريس اللغة العربية، الكتابة، والتعليق الصوتي.",
+        "آراء من جربوا تدريس اللغة العربية، تعليم القرآن، القواعد، وإرشاد الشعر.",
     },
     contact: {
       label: "تواصل",
-      heading: "ابدأ رحلتك في العربية أو احجز تعليقاً صوتياً.",
+      heading: "ابدأ رحلتك في اللغة العربية بثقة.",
       description:
-        "تواصل عبر البريد الإلكتروني أو من خلال الشبكات الاجتماعية للحصول على استشارة مخصّصة.",
+        "تواصل عبر البريد الإلكتروني أو وسائل التواصل للحصول على خطة دروس مخصصة.",
       emailLabel: "البريد الإلكتروني",
-      socialLabel: "تابعني",
+      socialLabel: "التواصل",
       connectTitle: "هيا نتواصل",
       connectDescription:
-        "أرسل رسالة للتدريس، الشعر، السرد، أو الاستشارة، وسأرسل لك إرشادات مفصّلة خلال يوم عمل واحد.",
+        "أرسل رسالة للدروس العربية، صفوف القرآن، دعم القواعد، إرشاد الشعر، أو كتابة المحتوى، وسأرسل لك توجيهات مفصلة خلال يوم عمل واحد.",
       messageButton: "أرسل رسالة",
     },
     footer: {
-      copyright: "© 2026 عبید اکیدمی. كل الحقوق محفوظة.",
-      links: ["الرئيسية", "الكتاب", "المحفظة", "المدونات", "من أنا", "تواصل"],
+      copyright: "© 2026 أكاديمية عبيد. جميع الحقوق محفوظة.",
+      links: ["الرئيسية", "المحفظة", "المدونات", "من أنا", "تواصل"],
     },
     languageButton: "English",
   },
@@ -266,12 +223,45 @@ const translations = {
 const services = [
   {
     title: {
-      en: "Arabic Language Teaching",
-      ar: "تدريس اللغة العربية",
+      en: "Spoken Gulf Arabic",
+      ar: "العربية الخليجية المنطوقة",
     },
     description: {
-      en: "Structured lessons for learners at every level.",
-      ar: "دروس منظمة للمتعلمين في جميع المستويات.",
+      en: "Everyday speaking practice for confidence, fluency, and real communication.",
+      ar: "تمارين يومية في المحادثة لبناء الثقة والطلاقة والتواصل الواقعي.",
+    },
+    icon: BookOpen,
+  },
+  {
+    title: {
+      en: "Modern Standard Arabic",
+      ar: "العربية الفصحى الحديثة",
+    },
+    description: {
+      en: "Reading, writing, speaking, and grammar skills for clear expression.",
+      ar: "مهارات القراءة والكتابة والتحدث والقواعد للتعبير الواضح.",
+    },
+    icon: Sparkles,
+  },
+  {
+    title: {
+      en: "Arabic Grammar",
+      ar: "القواعد العربية",
+    },
+    description: {
+      en: "Step-by-step guidance in sentence structure, rules, and accuracy.",
+      ar: "شرح تدريجي في تركيب الجمل والقواعد والدقة اللغوية.",
+    },
+    icon: Sparkles,
+  },
+  {
+    title: {
+      en: "Qaida & Quran",
+      ar: "القيادة والقرآن",
+    },
+    description: {
+      en: "Qaida, Nazra, and Hifz for confident Quran reading and memorization.",
+      ar: "القيادة، الناظر، والحفظ لتعلم القرآن بثقة ومعرفة.",
     },
     icon: BookOpen,
   },
@@ -281,75 +271,53 @@ const services = [
       ar: "الشعر العربي",
     },
     description: {
-      en: "Original poetry with refined literary rhythm.",
-      ar: "شعر أصيل بإيقاع أدبي راقٍ.",
+      en: "Creative guidance in Arabic poetry and literary expression.",
+      ar: "إرشاد إبداعي في الشعر العربي والتعبير الأدبي.",
     },
     icon: Feather,
   },
   {
     title: {
-      en: "Arabic Writing",
-      ar: "الكتابة العربية",
+      en: "Arabic Content Writing",
+      ar: "كتابة المحتوى العربي",
     },
     description: {
-      en: "Professional writing, editing, and literary consulting.",
-      ar: "كتابة احترافية، تحرير، واستشارات أدبية.",
+      en: "Writing for students of all ages, from simple paragraphs to meaningful Arabic content.",
+      ar: "كتابة مناسبة للطلاب من جميع الأعمار، من الفقرات البسيطة إلى المحتوى العربي المعني.",
     },
     icon: Sparkles,
-  },
-  {
-    title: {
-      en: "Voice-over for Advertisements",
-      ar: "التعليق الصوتي للإعلانات",
-    },
-    description: {
-      en: "Premium Arabic voice recordings for videos and ads.",
-      ar: "تسجيلات صوتية عربية احترافية للفيديوهات والإعلانات.",
-    },
-    icon: Mic2,
-  },
-  {
-    title: {
-      en: "Public Speaking & Pronunciation",
-      ar: "التحدث العام والنطق",
-    },
-    description: {
-      en: "Accent coaching and polished delivery for live speech.",
-      ar: "تدريب على النطق وخطاب مصقول للعروض الحية.",
-    },
-    icon: Volume2,
   },
 ];
 
 const portfolioItems = [
   {
     title: {
-      en: "Classical Arabic Curriculum",
-      ar: "منهج العربية الكلاسيكية",
+      en: "Arabic Language Foundation",
+      ar: "أساسيات اللغة العربية",
     },
     description: {
-      en: "A complete learning path for modern and classical Arabic fluency.",
-      ar: "مسار تعلّم متكامل للطلاقة في العربية الكلاسيكية والحديثة.",
+      en: "A complete path for spoken Gulf Arabic, Modern Standard Arabic, and grammar development.",
+      ar: "مسار كامل للعربية الخليجية المنطوقة، العربية الفصحى الحديثة، وتطوير القواعد.",
     },
   },
   {
     title: {
-      en: "Literary Poetry Series",
-      ar: "سلسلة شعرية أدبية",
+      en: "Quran Learning Path",
+      ar: "مسار تعلم القرآن",
     },
     description: {
-      en: "Curated poems and visual storytelling for cultural projects.",
-      ar: "قصائد مختارة وسرد مرئي للمشاريع الثقافية.",
+      en: "Focused learning for Qaida, Nazra, and Hifz with clear understanding and consistency.",
+      ar: "تعليم موجه للقيادة، الناظر، والحفظ مع فهم واضح وثبات في الأداء.",
     },
   },
   {
     title: {
-      en: "Voice-over Campaign",
-      ar: "حملة تعليق صوتي",
+      en: "Poetry & Writing Mentorship",
+      ar: "إرشاد الشعر والكتابة",
     },
     description: {
-      en: "Professional Arabic narration for brand videos and ads.",
-      ar: "سرد عربي احترافي لإعلانات الفيديو والعلامات التجارية.",
+      en: "Creative guidance for Arabic poetry, writing, and expressive content creation.",
+      ar: "إرشاد إبداعي للشعر العربي، الكتابة، وصياغة المحتوى التعبيري.",
     },
   },
 ];
@@ -357,22 +325,22 @@ const portfolioItems = [
 const blogPreviews = [
   {
     title: {
-      en: "The Art of Pronunciation in Arabic",
-      ar: "فن النطق في العربية",
+      en: "How to Learn Spoken Gulf Arabic",
+      ar: "كيف تتعلم العربية الخليجية المنطوقة",
     },
     excerpt: {
-      en: "Explore the beauty of Arabic sound, accent, and the musicality of every phrase.",
-      ar: "اكتشف جمال صوت العربية، اللّهجة، وموسيقى كل عبارة.",
+      en: "A practical path to speaking clearly, confidently, and naturally in everyday Arabic.",
+      ar: "مسار عملي للتحدث بوضوح وثقة وطبيعية في العربية اليومية.",
     },
   },
   {
     title: {
-      en: "Crafting Poems with Timeless Emotion",
-      ar: "صياغة شعر بمشاعر خالدة",
+      en: "Building Strong Arabic Grammar",
+      ar: "بناء قواعد عربية قوية",
     },
     excerpt: {
-      en: "A guide to writing modern Arabic poetry that honors classical tradition.",
-      ar: "دليل لكتابة شعر عربي حديث يحترم التراث الكلاسيكي.",
+      en: "A guide to understanding grammar patterns and developing confident sentence-building skills.",
+      ar: "دليل لفهم أنماط القواعد وتطوير مهارات بناء الجمل بثقة.",
     },
   },
 ];
@@ -406,14 +374,12 @@ const socialLinks = [
 
 const Home = () => {
   const [menuOpen, setMenuOpen] = useState(false);
-  const [showBookCard, setShowBookCard] = useState(true);
   const [isArabic, setIsArabic] = useState(false);
   const lang = isArabic ? "ar" : "en";
   const t = translations[lang];
 
   const footerLinkPath = (link) => {
     if (link === "Home" || link === "الصفحة الرئيسية" || link === "الرئيسية") return "/";
-    if (link === "Book" || link === "الالكتاب") return "/book";
     if (link === "Portfolio" || link === "السیرة الذاتیة" || link === "المحفظة") return "/portfolio";
     if (link === "Blogs" || link === "المدونات") return "/blogs";
     if (link === "About" || link === "من أنا") return "/about";
@@ -428,7 +394,7 @@ const Home = () => {
             {/* <span className="inline-flex h-10 w-10 items-center justify-center rounded-2xl bg-amber-400/10 text-amber-300 shadow-sm shadow-amber-400/10">
               A
             </span> */}
-            Ubaid Yousafzai
+            Ihsan Ullah Fareed
           </Link>
 
           <div className="flex items-center gap-3">
@@ -572,88 +538,7 @@ const Home = () => {
           </div>
         </section>
 
-        <section className="border-t border-zinc-800/70 px-6 py-16 md:px-10 lg:px-12">
-          <div className="mx-auto max-w-7xl">
-            <div className="grid gap-8 lg:grid-cols-[1.2fr_0.9fr] lg:items-center">
-              <div>
-                <p className="text-sm uppercase tracking-[0.35em] text-amber-300/80">{t.book.sectionLabel}</p>
-                <h2 className="mt-4 text-4xl font-semibold text-zinc-100 sm:text-5xl">
-                  {t.book.title}
-                </h2>
-                <p className="mt-4 max-w-2xl text-lg leading-8 text-zinc-400">
-                  {t.book.subtitle}
-                </p>
-                <p className="mt-6 max-w-2xl text-base leading-8 text-zinc-400">
-                  {t.book.description}
-                </p>
-
-                <div className="mt-8 grid gap-3 sm:grid-cols-2">
-                  {t.book.highlights.map((highlight) => (
-                    <div key={highlight} className="rounded-3xl border border-zinc-800 bg-zinc-900/80 p-5 text-sm text-zinc-300">
-                      {highlight}
-                    </div>
-                  ))}
-                </div>
-
-                <div className="mt-8 flex flex-wrap gap-3">
-                  <Link
-                    to="/book"
-                    className="inline-flex items-center justify-center rounded-full bg-amber-400 px-6 py-3 text-sm font-semibold text-zinc-950 transition hover:bg-amber-300"
-                  >
-                    {t.book.button}
-                  </Link>
-                  <a
-                    href={t.book.whatsappLink}
-                    target="_blank"
-                    rel="noreferrer"
-                    className="inline-flex items-center justify-center gap-2 rounded-full border border-zinc-700 bg-zinc-900/90 px-6 py-3 text-sm font-semibold text-zinc-100 transition hover:border-amber-300 hover:text-amber-300"
-                  >
-                    <MessageSquare className="h-4 w-4" />
-                    {t.book.buyButton}
-                  </a>
-                </div>
-
-                <p className="mt-4 text-sm text-zinc-500">
-                  {t.book.contactLabel}: <a href={`mailto:${t.book.contactEmail}`} className="text-amber-300 hover:text-amber-200">{t.book.contactEmail}</a>
-                </p>
-              </div>
-
-              <div className="grid gap-4 sm:grid-cols-2">
-                <div className="overflow-hidden rounded-[2rem] border border-zinc-800 bg-zinc-900/80 p-6 shadow-lg shadow-black/30">
-                  <div className="h-72 rounded-[1.75rem] bg-[url('/images/profile picture.jpeg')] bg-cover bg-center" />
-                  <div className="mt-5 space-y-3">
-                    <div className="h-4 w-24 rounded-full bg-amber-400/20" />
-                    <div className="h-4 w-32 rounded-full bg-zinc-700/70" />
-                    <div className="h-4 w-20 rounded-full bg-zinc-700/70" />
-                  </div>
-                </div>
-                <div className="space-y-4">
-                  <div className="rounded-[2rem] border border-zinc-800 bg-zinc-900/80 p-5 shadow-inner shadow-black/20">
-                    <div className="h-32 rounded-3xl bg-gradient-to-br from-amber-400/20 via-transparent to-sky-400/10 p-5">
-                      <div className="h-full rounded-3xl bg-zinc-950/90 p-4">
-                        <div className="h-3/5 rounded-3xl bg-zinc-800/80" />
-                        <div className="mt-4 h-2 rounded-full bg-zinc-700/70" />
-                        <div className="mt-2 h-2 rounded-full bg-zinc-700/70" />
-                        <div className="mt-2 h-2 rounded-full bg-zinc-700/70" />
-                      </div>
-                    </div>
-                  </div>
-                  <div className="rounded-[2rem] border border-zinc-800 bg-zinc-900/80 p-5 shadow-inner shadow-black/20">
-                    <div className="h-32 rounded-3xl bg-gradient-to-br from-sky-400/20 via-transparent to-amber-400/10 p-5">
-                      <div className="h-full rounded-3xl bg-zinc-950/90 p-4">
-                        <div className="h-3/5 rounded-3xl bg-zinc-800/80" />
-                        <div className="mt-4 h-2 rounded-full bg-zinc-700/70" />
-                        <div className="mt-2 h-2 rounded-full bg-zinc-700/70" />
-                        <div className="mt-2 h-2 rounded-full bg-zinc-700/70" />
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-
+    
         <section className="border-t border-zinc-800/70 px-6 py-16 md:px-10 lg:px-12">
           <div className="mx-auto max-w-7xl">
             <div className="max-w-2xl">
@@ -819,41 +704,6 @@ const Home = () => {
           </div>
         </section>
       </main>
-
-      {showBookCard && (
-        <div className="fixed bottom-5 right-5 z-50 w-full max-w-xs rounded-[1.5rem] border border-amber-400/20 bg-gradient-to-br from-zinc-950 via-zinc-900 to-zinc-950 p-4 shadow-[0_20px_60px_rgba(0,0,0,0.45)] ring-1 ring-white/5 backdrop-blur-xl sm:right-6">
-          <div className="absolute inset-x-4 top-0 h-16 rounded-full bg-gradient-to-r from-amber-400/15 via-transparent to-sky-400/10 blur-2xl" />
-          <div className="relative flex items-start justify-between gap-3">
-            <div>
-              <p className="text-xs uppercase tracking-[0.35em] text-amber-300/80">{t.book.sectionLabel}</p>
-              <h3 className="mt-2 text-lg font-semibold text-zinc-100">{t.book.title}</h3>
-              <p className="mt-2 text-sm leading-6 text-zinc-400">{t.book.subtitle}</p>
-            </div>
-            <button
-              type="button"
-              onClick={() => setShowBookCard(false)}
-              className="rounded-full border border-zinc-700 bg-zinc-900/90 p-2 text-zinc-400 transition hover:border-amber-300 hover:text-white"
-              aria-label="Dismiss book card"
-            >
-              ×
-            </button>
-          </div>
-          <div className="relative mt-4 flex flex-col gap-3">
-            <Link
-              to="/book"
-              className="inline-flex items-center justify-center rounded-full bg-amber-400 px-4 py-2 text-sm font-semibold text-zinc-950 transition hover:bg-amber-300"
-            >
-              {t.book.button}
-            </Link>
-            <a
-              href={`mailto:${t.book.contactEmail}`}
-              className="inline-flex items-center justify-center rounded-full border border-zinc-700 bg-zinc-900/90 px-4 py-2 text-sm font-semibold text-zinc-100 transition hover:border-amber-300 hover:text-amber-300"
-            >
-              {t.book.buyButton}
-            </a>
-          </div>
-        </div>
-      )}
 
       <footer className="border-t border-zinc-800/70 px-6 py-8 md:px-10 lg:px-12">
         <div className="mx-auto flex max-w-7xl flex-col gap-6 md:flex-row md:items-center md:justify-between">

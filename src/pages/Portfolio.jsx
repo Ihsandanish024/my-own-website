@@ -36,8 +36,7 @@ const translations = {
     heroTitle:
       "A polished portfolio built fully with frontend visuals, rich gradients, and modern UX.",
     heroText:
-      "This page no longer depends on backend data. It is designed to showcase projects, services, and lessons with the same premium style as the home page.",
-    bookButton: "Book a Session",
+      "This portfolio highlights my Arabic teaching services, Quran instruction, grammar coaching, poetry guidance, and Arabic content writing for learners of every age.",
     blogButton: "Read Blogs",
     highlightLabel: "Highlight",
     highlightTitle: "Smooth design, no API needed",
@@ -45,59 +44,59 @@ const translations = {
       "All portfolio content is stored in the page and styled with dark glass panels, gradient accents, and tactile buttons.",
     featuresLabel: "UI features",
     features: [
-      "Soft glowing gradients and polished glass cards.",
-      "Readable typography with strong visual hierarchy.",
-      "Interactive CTA buttons and premium hover effects.",
+      "Clear Arabic teaching pathways for learners of all levels.",
+      "Structured lessons for conversation, grammar, and Quran study.",
+      "Support for poetry, writing, and content development.",
     ],
     servicesLabel: "Services",
     servicesHeading: "What I offer",
     servicesText:
-      "These service cards focus on teaching, creative writing, and audio production with a cohesive homepage-inspired style.",
+      "These service cards focus on Arabic teaching, Quran study, grammar mastery, poetry, and writing support for students of every age.",
     services: [
       {
-        title: "Arabic Curriculum Design",
+        title: "Spoken Gulf Arabic",
         description:
-          "Lesson plans, daily practice guides, and teaching resources for modern learners.",
+          "Practical lessons in everyday spoken Arabic for confidence and real-world communication.",
       },
       {
-        title: "Arabic Poetry Craft",
+        title: "Modern Standard Arabic",
         description:
-          "Original poetry and writing consultations that celebrate language and rhythm.",
+          "Structured learning for reading, speaking, and comprehension in modern Arabic.",
       },
       {
-        title: "Voice-over Production",
+        title: "Arabic Grammar",
         description:
-          "High-quality Arabic voice recordings for campaigns, narration, and audio projects.",
+          "Clear explanations and guided practice for grammar, sentence building, and accuracy.",
       },
       {
-        title: "Pronunciation Coaching",
+        title: "Qaida & Quran",
         description:
-          "Accent refinement and public speaking coaching for confident spoken Arabic.",
+          "Qaida, Nazra, and Hifz programs for learners who want strong Quran recitation and memorization.",
       },
     ],
     portfolioLabel: "Portfolio",
     portfolioHeading: "Featured work",
     portfolioItems: [
       {
-        title: "Classical Arabic Learning Path",
+        title: "Arabic Language Foundation",
         description:
-          "A complete frontend portfolio presentation of curriculum, milestones, and learning goals.",
+          "Learning pathways for spoken Gulf Arabic, Modern Standard Arabic, and grammar progression.",
       },
       {
-        title: "Poetic Voice Series",
+        title: "Quran Learning Path",
         description:
-          "A collection of expressive poems paired with atmospheric audio narrative.",
+          "Focused support for Qaida, Nazra, Hifz, and confident Quran reading with proper understanding.",
       },
       {
-        title: "Brand Audio Campaign",
+        title: "Poetry & Writing Mentorship",
         description:
-          "Voice-over projects designed for modern digital storytelling.",
+          "Creative guidance for Arabic poetry, content writing, and strong expression for all learners.",
       },
     ],
     ctaLabel: "Ready to work together?",
     ctaHeading: "Launch your next Arabic project with confidence.",
     ctaText:
-      "This portfolio is fully frontend-driven, with no API calls. It is optimized for fast load times and polished presentation.",
+      "This portfolio reflects my Arabic teaching focus, Quran instruction, grammar coaching, and creative writing support for students of all ages.",
     contactButton: "Contact Me",
     blogArticleButton: "View Blog Articles",
     footerText: "© 2026 Noor Al-Qalam. All rights reserved.",
@@ -117,7 +116,7 @@ const translations = {
       "محفظة مصقولة مبنية بالكامل على واجهة أمامية، تدرجات غنية وتجربة مستخدم حديثة.",
     heroText:
       "هذه الصفحة لا تعتمد بعد الآن على بيانات من الخلفية. تم تصميمها لعرض المشاريع والخدمات والدروس بنفس النمط المتميز لصفحة البداية.",
-    bookButton: "حجز جلسة",
+    bookButton: "ابدأ التعلم",
     blogButton: "قراءة المدونة",
     highlightLabel: "أبرز ما في الأمر",
     highlightTitle: "تصميم سلس بدون API",
@@ -132,52 +131,52 @@ const translations = {
     servicesLabel: "الخدمات",
     servicesHeading: "ما أقدمه",
     servicesText:
-      "تركز بطاقات الخدمة على التدريس والكتابة الإبداعية وإنتاج الصوت بأسلوب متناسق مستوحى من الصفحة الرئيسية.",
+      "تركز بطاقات الخدمة على تدريس اللغة العربية، تعليم القرآن، القواعد، الشعر، والكتابة للأعمار والمستويات المختلفة.",
     services: [
       {
-        title: "تصميم مناهج عربية",
+        title: "العربية الخليجية المنطوقة",
         description:
-          "خطط دروس ودلائل تدريب يومية وموارد تعليمية للمتعلمين المعاصرين.",
+          "دروس عملية في الحديث اليومي لبناء الثقة والتواصل الواقعي.",
       },
       {
-        title: "فن الشعر العربي",
+        title: "العربية الفصحى الحديثة",
         description:
-          "شعر أصيل واستشارات كتابة تحتفي بالإيقاع واللغة.",
+          "تعلم منظم للقراءة والمحادثة والفهم في العربية الحديثة.",
       },
       {
-        title: "إنتاج التعليق الصوتي",
+        title: "القواعد النحوية",
         description:
-          "تسجيلات صوتية عربية عالية الجودة للحملات والرواية والمشاريع الصوتية.",
+          "شرح واضح وتمارين عملية لبناء الجمل وتحسين الدقة اللغوية.",
       },
       {
-        title: "تدريب النطق",
+        title: "القرآن والقيادة",
         description:
-          "تحسين اللهجة وتدريب الإلقاء للحديث بثقة باللغة العربية.",
+          "برامج لقواعد التجويد، الناظر، والحفظ لتعليم القرآن بشكل قوي ومتماسك.",
       },
     ],
     portfolioLabel: "أعمال",
     portfolioHeading: "أعمال مميزة",
     portfolioItems: [
       {
-        title: "مسار التعلم العربي الكلاسيكي",
+        title: "أساسيات اللغة العربية",
         description:
-          "عرض محفظة أمامية متكامل للمناهج والمعالم وأهداف التعلم.",
+          "مسارات تعليمية للعربية الخليجية المنطوقة، العربية الفصحى الحديثة، والقواعد.",
       },
       {
-        title: "سلسلة الصوت الشعري",
+        title: "مسار تعلم القرآن",
         description:
-          "مجموعة من القصائد التعبيرية مصحوبة بسرد صوتي جوي.",
+          "دعم متكامل للقيادة، الناظر، والحفظ مع تنمية الثقة في القراءة.",
       },
       {
-        title: "حملة صوتية للعلامة التجارية",
+        title: "الإرشاد الشعري والكتابي",
         description:
-          "مشاريع الصوت المخصصة لسرد القصص الرقمية الحديثة.",
+          "توجيه إبداعي للشعر العربي والكتابة والمحتوى اللغوي للمتعلمين.",
       },
     ],
     ctaLabel: "هل أنت مستعد للعمل معًا؟",
     ctaHeading: "أطلق مشروعك العربي التالي بثقة.",
     ctaText:
-      "هذه المحفظة تعمل بالكامل على الواجهة الأمامية دون استدعاءات API. وهي محسّنة لأوقات تحميل سريعة وعرض مصقول.",
+      "تعكس هذه المحفظة تركيزي على تدريس اللغة العربية، تعليم القرآن، القواعد، والكتابة الإبداعية للطلاب من جميع الأعمار.",
     contactButton: "اتصل بي",
     blogArticleButton: "عرض مقالات المدونة",
     footerText: "© 2026 نور القلم. جميع الحقوق محفوظة.",

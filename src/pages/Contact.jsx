@@ -28,7 +28,7 @@ const Contact = () => {
             <div className="mb-10 rounded-4xl border border-zinc-800 bg-zinc-900/80 p-10 shadow-2xl shadow-black/20">
               <h1 className="text-4xl font-semibold text-zinc-100 sm:text-5xl">Contact</h1>
               <p className="mt-4 max-w-2xl text-base leading-8 text-zinc-400">
-                Reach out to book Arabic lessons, request poetry, or arrange voice-over services for your next video or advertisement.
+                Reach out to start Arabic lessons, Quran study, grammar classes, poetry sessions, and Arabic content writing for students of all ages.
               </p>
             </div>
 
@@ -37,7 +37,7 @@ const Contact = () => {
                 <div>
                   <p className="text-sm uppercase tracking-[0.35em] text-amber-300/80">Message</p>
                   <p className="mt-4 text-zinc-300 leading-8">
-                    For personalized teaching plans, creative writing projects, or professional recording sessions, email directly or leave a message here.
+                    For personalized Arabic lessons, Quran classes, grammar coaching, creative writing, and poetry guidance, email directly or leave a message here.
                   </p>
                 </div>
 
@@ -45,7 +45,7 @@ const Contact = () => {
                   <div className="rounded-3xl border wrap-break-word border-zinc-800 bg-zinc-950/90 p-6 transition hover:-translate-y-1">
                     <p className="text-sm text-amber-300/90">Email</p>
                     <a href="mailto:ubaidyousufzai9@gmail.com" className="mt-3 block text-lg font-semibold text-zinc-100 hover:text-amber-300 transition">
-                    ubaidyousufzai9@gmail.com
+                    ihsandanish096@gmail.com
                     </a>
                   </div>
                   <div className="rounded-3xl border border-zinc-800 bg-zinc-950/90 p-6 transition hover:-translate-y-1">
@@ -56,10 +56,10 @@ const Contact = () => {
 
                 <div className="rounded-3xl border border-zinc-800 bg-zinc-950/90 p-6 transition hover:-translate-y-1">
                   <p className="text-sm text-amber-300/90">Phone</p>
-                  <p className="mt-3 text-lg font-semibold text-zinc-100">03272413261</p>
+                  <p className="mt-3 text-lg font-semibold text-zinc-100">03259024536</p>
                   <div className="mt-6">
                       <p className="text-sm text-amber-300/90">whattsapp no:</p>
-                      <p className="mt-3 text-lg font-semibold text-zinc-100">03480281550</p>
+                      <p className="mt-3 text-lg font-semibold text-zinc-100">03259024536</p>
                     
                   </div>
                 </div>
@@ -67,13 +67,10 @@ const Contact = () => {
                 <div className="rounded-3xl border border-zinc-800 bg-zinc-950/90 p-6 transition hover:-translate-y-1">
                   <p className="text-sm uppercase tracking-[0.35em] text-amber-300/80">Connect</p>
                   <div className="mt-4 space-y-3">
-                    <a href="https://youtube.com/channel/UChig7uLbEqv_lKk3HX6Ul8Q?si=liPA2dhzVbZ6EdIX" target="_blank" rel="noreferrer" className="block text-lg font-semibold text-zinc-100 hover:text-amber-300 transition">
-                      YouTube Channel
-                    </a>
-                    <a href="https://www.facebook.com/share/1AvHw9W3MG/" target="_blank" rel="noreferrer" className="block text-lg font-semibold text-zinc-100 hover:text-amber-300 transition">
+                    <a href="https://web.facebook.com/ihsan.ullah.fareed" target="_blank" rel="noreferrer" className="block text-lg font-semibold text-zinc-100 hover:text-amber-300 transition">
                       Facebook Page
                     </a>
-                    <a href="https://www.linkedin.com/in/عبيدالرحمن-يوسف-زئي-2a893b296?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" rel="noreferrer" className="block text-lg font-semibold text-zinc-100 hover:text-amber-300 transition">
+                    <a href="https://www.linkedin.com/in/ihsan-danish-213749321" target="_blank" rel="noreferrer" className="block text-lg font-semibold text-zinc-100 hover:text-amber-300 transition">
                       LinkedIn Profile
                     </a>
                   </div>
@@ -84,20 +81,20 @@ const Contact = () => {
                 <div className="rounded-3xl border border-zinc-800 bg-zinc-950/95 p-8">
                   <h2 className="text-2xl font-semibold text-zinc-100">Send a Request</h2>
                   <p className="mt-4 text-zinc-400 leading-7">
-                   you can contact me for any service matches my skills
+                    You can contact me for Arabic lessons, Quran instruction, grammar support, poetry guidance, and content writing for any age group.
                   </p>
                   <div className="mt-8 space-y-4">
                     <div className="rounded-3xl bg-zinc-900/95 p-4 text-zinc-300 transition hover:bg-zinc-800/95">
                       <p className="text-sm text-zinc-500">Type</p>
-                      <p className="mt-2 text-zinc-100">Language lesson</p>
+                      <p className="mt-2 text-zinc-100">Arabic lesson</p>
                     </div>
                     <div className="rounded-3xl bg-zinc-900/95 p-4 text-zinc-300 transition hover:bg-zinc-800/95">
                       <p className="text-sm text-zinc-500">Type</p>
-                      <p className="mt-2 text-zinc-100">Voice-over project</p>
+                      <p className="mt-2 text-zinc-100">Quran class</p>
                     </div>
                     <div className="rounded-3xl bg-zinc-900/95 p-4 text-zinc-300 transition hover:bg-zinc-800/95">
                       <p className="text-sm text-zinc-500">Type</p>
-                      <p className="mt-2 text-zinc-100">Poetry collaboration</p>
+                      <p className="mt-2 text-zinc-100">Poetry or content writing</p>
                     </div>
                   </div>
                   <Link

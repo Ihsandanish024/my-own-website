@@ -1,8 +1,6 @@
 import { Routes, Route } from "react-router-dom";
 import Home from "../pages/Home";
 import About from "../pages/About";
-import Book from "../pages/book";
-import BookImage from "../pages/BookImage";
 import Contact from "../pages/Contact";
 import Blogs from "../pages/Blogs";
 import BlogDetail from "../pages/BlogDetail";
@@ -23,8 +21,6 @@ function Approutes() {
       <Route path="/blogs" element={<Blogs />} />
       <Route path="/blogs/:id" element={<BlogDetail />} />
       <Route path="/portfolio" element={<Portfolio />} />
-      <Route path="/book" element={<Book />} />
-      <Route path="/book/image/:imageId" element={<BookImage />} />
       <Route path="/admin/login" element={<AdminLogin />} />
       <Route
         path="/admin"
