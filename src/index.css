@@ -1,0 +1,20 @@
+
+@import "tailwindcss";
+
+/* Light mode (non-invasive):
+	 When `.dark` is NOT present on <html>, invert the page colors so
+	 dark-themed utilities appear as light mode without changing classes.
+	 Re-invert media (images, videos, svgs) to preserve original assets.
+*/
+html:not(.dark) {
+	filter: invert(1) hue-rotate(180deg);
+}
+
+html:not(.dark) img,
+html:not(.dark) picture,
+html:not(.dark) video,
+html:not(.dark) svg,
+html:not(.dark) .no-invert {
+	filter: invert(1) hue-rotate(180deg);
+}
+
