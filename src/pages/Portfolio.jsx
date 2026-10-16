@@ -235,6 +235,11 @@ const Portfolio = () => {
           <div className="pointer-events-none absolute inset-x-0 top-0 h-80 bg-linear-to-b from-amber-500/10 to-transparent blur-3xl" />
           <div className={`mx-auto flex max-w-7xl flex-col gap-12 lg:items-center lg:gap-16 ${layoutDirection}`}>
             <div className="relative z-10 flex-1">
+              <img
+                src="/WhatsApp%20Image%202026-02-01%20at%209.09.28%20AM.jpeg"
+                alt="Ihsan Ullah Fareed"
+                className={`mb-6 h-28 w-28 rounded-full border border-amber-400/20 object-cover shadow-xl shadow-black/20 sm:h-32 sm:w-32 ${isArabic ? "ml-auto" : ""}`}
+              />
               <span className="inline-flex items-center gap-2 rounded-full border border-amber-400/20 bg-amber-400/10 px-4 py-2 text-sm text-amber-200 shadow-sm shadow-amber-400/10">
                 {t.pageShortcut}
               </span>
