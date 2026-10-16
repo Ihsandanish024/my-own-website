@@ -12,6 +12,9 @@ import {
   ChevronRight,
 } from "lucide-react";
 import ThemeToggle from "../components/ThemeToggle";
+import { courses } from "./CoursePage";
+
+const courseHubs = ["arabic", "quran", "islamicStudies", "english"].map((key) => courses[key]);
 
 const translations = {
   en: {
@@ -588,6 +591,30 @@ const Home = () => {
                   </div>
                 );
               })}
+            </div>
+          </div>
+        </section>
+
+        <section className="border-t border-zinc-800/70 px-6 py-16 md:px-10 lg:px-12">
+          <div className="mx-auto max-w-7xl">
+            <h2 className="text-3xl font-semibold text-zinc-100 sm:text-4xl">
+              {isArabic ? "الدورات التعليمية" : "Explore Course Areas"}
+            </h2>
+            <div className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+              {courseHubs.map((course) => (
+                <Link
+                  key={course.path}
+                  to={course.path}
+                  className="group rounded-3xl border border-zinc-800 bg-zinc-900/80 p-6 transition hover:border-amber-300/60 hover:bg-zinc-900"
+                >
+                  <h3 className="text-lg font-semibold text-zinc-100 group-hover:text-amber-300">
+                    {isArabic ? course.titleAr : course.title}
+                  </h3>
+                  <p className="mt-3 text-sm leading-6 text-zinc-400">
+                    {isArabic ? course.descriptionAr : course.description}
+                  </p>
+                </Link>
+              ))}
             </div>
           </div>
         </section>
