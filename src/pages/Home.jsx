@@ -6,7 +6,6 @@ import {
   Sparkles,
   BookOpen,
   Feather,
-  Youtube,
   Linkedin,
   Facebook,
   ChevronRight,
@@ -349,14 +348,6 @@ const blogPreviews = [
 ];
 
 const socialLinks = [
-  {
-    label: {
-      en: "Youtube",
-      ar: "يوتيوب",
-    },
-    icon: Youtube,
-    href: "https://youtube.com/channel/UChig7uLbEqv_lKk3HX6Ul8Q?si=liPA2dhzVbZ6EdIX",
-  },
   {
     label: {
       en: "Facebook",
